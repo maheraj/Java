@@ -33,3 +33,28 @@ In Java, all objects are dynamically allocated on Heap.
 ## How to swap or exchange objects in Java?
 Solution is to use Wrapper Class.
 
+## Pillars of OOP
+* Inheritance
+
+## Inheritance of Java
+* Inherit fields and methods
+* Super Class - base class or parent class
+* Sub Class - derived class or sub child class
+* Reusability
+* extends - keyword
+In practice, inheritance and polymorphism are used together in java to achieve fast performance and readability of code. Java does not support multiple inheritance with classes. But it support with interfaces.
+### Types of Inheritance in Java
+* Single Inheritance
+* Multilevel Inheritance
+* Hierarchical Inheritance
+* Multiple Inheritance (Through Interfaces)
+* Hybrid Inheritance(Through Interfaces)
+
+### Important facts about inheritance in Java
+* Default superclass (Object) - except Object
+* Superclass can only be one - does not support multiple inheritance with class
+* Constructor is not inherited as it is not a member of the class
+* Inheritance inherit fields, methods, nested classes
+* Private members are not inherited
+* Static fields and methods are not inherited (?)
+
