@@ -19,3 +19,6 @@
 
 ## Anonymous objects
 Anonymous objects are the objects that are instantiated but are not stored in a reference variable.
+
+## How are Java objects stored in memory?
+In Java, all objects are dynamically allocated on Heap.
