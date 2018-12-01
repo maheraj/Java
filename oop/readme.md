@@ -28,4 +28,5 @@ In Java, all objects are dynamically allocated on Heap.
 * New Instance - Class cls = Class.forName("Object"); Object obj = cls.newInstance();
 * clone() method - JVM creates a new object and copies all content of the previous object into it. It does not invoke any constructor. To use clone() on a object we need to implement Clonable and define the clone() method.
 * Deserialization - serialize and then deserialize an object, JVM creates a separate object. JVM does not use any constructor call. To deserialize we need to implement the serializable interface
+* Reflection
 
