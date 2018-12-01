@@ -23,3 +23,6 @@ mainthread.join() will create a deadlock. The statement “Thread.currentThread(
 * synchronized object
 * synchronized method
 * synchronised block in method
+
+## What does start() function do in multithreading in Java?
+It creates a call stack and a seperate call stack is created by JVM by running run() method. This way JVM handle some special cases like each thread will be assigned a seperate id.
