@@ -30,3 +30,6 @@ In Java, all objects are dynamically allocated on Heap.
 * Deserialization - serialize and then deserialize an object, JVM creates a separate object. JVM does not use any constructor call. To deserialize we need to implement the serializable interface
 * Reflection
 
+## How to swap or exchange objects in Java?
+Solution is to use Wrapper Class.
+
