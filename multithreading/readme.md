@@ -33,3 +33,6 @@ It creates a call stack and a seperate call stack is created by JVM by running r
 * Child Thread priority depends on parent thread priority
 * highest priority thread will be executed first than the lower priority thread
 * If two thread have the same priority it depends on Thread Scheduling's algorithm (Round-Robin, First Come First Serve, etc.)
+
+## Daemon Thread
+Daemon thread is a low priority thread that runs in background to perform tasks such as garbage collection
