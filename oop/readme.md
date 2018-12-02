@@ -91,3 +91,19 @@ Shape, Circle, Rectangle example. Shape is abstract class. Circle and Rectangle 
 * Avoids code duplication and increase resuablility
 * Helps to increase security of and application or program or program as only important details are provided to the user.
 
+## Polymorphism in Java
+* Method Overloading - compile time Polymorphism
+* Method Overriding - Run time Polymorphism
+
+### Overriding in Java
+In any object-oriented programming language, Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.
+* Method of sub class override method of super class
+### Rules for method overriding
+* Overriding and Access-Modifiers - more access not less. like if parent method is protected then child method can not be made private. It can be made public.
+* Final methods can not be overridden
+* Static methods can not be overridden(Method Overriding vs Method Hiding) 
+* Private methods can not be overridden
+* The overriding method must have same return type (or subtype) 
+* Invoking overridden method from sub-class - supper.show()
+* Overriding and constructor - can not override constructor.
+* Overriding and Exception-Handling - (a) parent method does not throw, child method can only through unchecked exception. (b) parent method through, child method can ignore throwing. child method can through same or sub class exception
