@@ -22,3 +22,17 @@ Map Implementations: HashMap, TreeMap, LinkedHashMap, HashTable
 * foreach is used for traversal nested loop
 * Traversing a collection using for-each loop and iterator gives same performace. If you iterate using the old styled C for loop then we might increase the time complexity drastically. 
 * old style for loop for ArrayList - O(1) where random access is possible. But for linked list random access is not possible. so time complexity is O(n)
+
+## Retrieving Elements from Collection in Java (For-each, Iterator, ListIterator & EnumerationIterator)
+
+* For-each
+```
+for(Element e : elements) {
+  System.out.println(e);
+}
+```
+
+Note :In Java 8 using lambda expressions we can simply replace for-each loop with
+```
+elements.forEach(e -> System.out.println(e));
+```
