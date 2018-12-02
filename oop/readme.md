@@ -193,3 +193,28 @@ Overloading allows different methods to have same name, but different signatures
 * Can we overload static methods? - YES
 * Can we overload methods that differ only by static keyword? - NO
 * Can we overload main() in Java? - Yes
+
+## Association, Composition and Aggregation in Java
+**Association**
+Association is relation between two separate classes which establishes through their Objects. Association can be one-to-one, one-to-many, many-to-one, many-to-many. Composition and Aggregation are the two forms of association.
+
+**Aggregation**
+Aggregation is a special form of association.
+* Has-A relationship
+* unidirectional assocation - one way. department can have students but vice versa is not possible
+* both entities can survive individually
+
+**Composition**
+Composition is a restricted form of Aggregation in which two entities are highly dependent on each other.
+* part-of relationship
+* In composition, both the entities are dependent on each other.
+* When there is a composition between two entities, the composed object cannot exist without the other entity.
+* Human, Heart relationship
+
+### Aggregation vs Composition
+* Dependency: Aggregation < Composition
+* Type of Relationship: Has-a, part-of
+* Type of association: week, strong
+
+
+
