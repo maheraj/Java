@@ -35,6 +35,8 @@ Solution is to use Wrapper Class.
 
 ## Pillars of OOP
 * Inheritance
+* polymorphism
+* Encapsulation
 
 ## Inheritance of Java
 * Inherit fields and methods
@@ -57,4 +59,13 @@ In practice, inheritance and polymorphism are used together in java to achieve f
 * Inheritance inherit fields, methods, nested classes
 * Private members are not inherited
 * Static fields and methods are not inherited (?)
+
+## Encapsulation
+Encapsulation is defined as the wrapping up of data under a single unit. it is a protective shield that prevents the data from being accessed by the code outside this shield.
+* Data Hiding
+* Getter, Setter - Declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables.
+* Allows to make variables Read Only or write only - using geter and setter method
+* Reusability and easy to change
+* easy for unit testing
+
 
