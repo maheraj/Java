@@ -1,6 +1,18 @@
 # OOP JAVA
+## Prerequisite
 
-## Checked vs Unchecked Exceptions in Java
+### Static vs Dynamic Binding in Java
+**Static Binding:** The binding which can be resolved at compile time by compiler is known as static or early binding. Binding of all the static, private and final methods is done at compile-time 
+**Dynamic Binding:** In Dynamic binding compiler doesn’t decide the method to be called. Overriding is a perfect example of dynamic binding. In overriding both parent and child classes have same method . Let’s see by an example
+
+### Using final with Inheritance in Java
+final is a keyword in java used for restricting some functionalities. We can declare variables, methods and classes with final keyword.
+* Using final with inheritance - declaring a method final will restrict sub classes to use the same implementation. final will now allow to override
+* Using final to Prevent Inheritance - A finla class can not be subclass and any other class can not extend it. This is particularly useful, for example, when creating an immutable class like the predefined String class.
+* Declaring a class as final implicitly declares all of its methods as final, too
+* It is illegal to declare a class as both abstract and final since an abstract class is incomplete by itself and relies upon its subclasses to provide complete implementations.
+* Using final to Prevent Overriding - When a method is declared as final then it cannot be overridden by subclasses.
+### Checked vs Unchecked Exceptions in Java
 * Unchecked Exception: are not checked at compile time - Error and RuntimeException, and their subclasses are unchecked. Ex: IOException
 * Checked Exception: checked at compile time. All exceptions under Throwable except Error and RuntimeExceptions and their subclasses. Ex: ArithmeticException
 
