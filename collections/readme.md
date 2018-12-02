@@ -36,3 +36,5 @@ Note :In Java 8 using lambda expressions we can simply replace for-each loop wit
 ```
 elements.forEach(e -> System.out.println(e));
 ```
+
+* Using Cursors - Iterator, ListIterator, Enumerator
