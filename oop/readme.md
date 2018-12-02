@@ -1,8 +1,8 @@
 # OOP JAVA
 
 ## Checked vs Unchecked Exceptions in Java
-* Unchecked Exception: are not checked at compile time - Under Error and RuntimeException are unchecked. Ex: IOException
-* Checked Exception: checked at compile time. All exceptions under Throwable except Error and RuntimeExceptions. Ex: ArithmeticException
+* Unchecked Exception: are not checked at compile time - Error and RuntimeException, and their subclasses are unchecked. Ex: IOException
+* Checked Exception: checked at compile time. All exceptions under Throwable except Error and RuntimeExceptions and their subclasses. Ex: ArithmeticException
 
 ## Class
 * Modifiers
@@ -118,3 +118,10 @@ Before JDK 5.0, it was not possible to override method by changing the return ty
 * Invoking overridden method from sub-class - supper.show()
 * Overriding and constructor - can not override constructor.
 * Overriding and Exception-Handling - (a) parent method does not throw, child method can only through unchecked exception. (b) parent method through, child method can ignore throwing. child method can through same or sub class exception
+
+## Overloading in Java
+Overloading allows different methods to have same name, but different signatures where signature can differ by number of input parameters or type of input parameters or both. Overloading is related to compile time (or static) polymorphism.
+* Can we overload methods on return type? - NO
+* Can we overload static methods? - YES
+* Can we overload methods that differ only by static keyword? - NO
+* Can we overload main() in Java? - Yes
