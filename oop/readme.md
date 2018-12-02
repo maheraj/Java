@@ -1,5 +1,7 @@
 # OOP JAVA
 ## Prerequisite
+### Can we Overload or Override static methods in java ?
+We can overload static method but we can not override static method. If we declare same static method in subclass then parent one will be hidden. It is called method hidding.
 
 ### How to create Immutable class in Java?
 Immutable class means that once an object is created, we cannot change its content. In Java, all the wrapper classes (like String, Boolean, Byte, Short) and String class is immutable. We can create our own immutable class as well.
