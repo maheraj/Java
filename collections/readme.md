@@ -16,3 +16,9 @@ Map Implementations: HashMap, TreeMap, LinkedHashMap, HashTable
 * Iterator - for all collection framework implementations - unidirectional but with remove method
 * ListIterator - Only for List implementaions - my directional
 
+## Iterator vs Foreach In Java
+* Iterator and foreach loop is used to traverse colleciton
+* If we have to modify collection we should use iterator
+* foreach is used for traversal nested loop
+* Traversing a collection using for-each loop and iterator gives same performace. If you iterate using the old styled C for loop then we might increase the time complexity drastically. 
+* old style for loop for ArrayList - O(1) where random access is possible. But for linked list random access is not possible. so time complexity is O(n)
