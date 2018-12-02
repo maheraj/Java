@@ -1,6 +1,6 @@
 # OOP JAVA
 ## Prerequisite
-
+### Static blocks and Instance Initializer Block 
 ### SOLID
 In object-oriented computer programming, SOLID is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable. It is not related to the GRASP software design principles. The principles are a subset of many principles promoted by Robert C. Martin.
 
