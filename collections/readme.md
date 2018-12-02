@@ -11,3 +11,8 @@
   1.1 SortedMap
 Map Implementations: HashMap, TreeMap, LinkedHashMap, HashTable
 
+## Iterators in Java
+* Enumeration - for Legacy type like Vector, HashTable - unidirectional, no remove method
+* Iterator - for all collection framework implementations - unidirectional but with remove method
+* ListIterator - Only for List implementaions - my directional
+
