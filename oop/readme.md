@@ -216,5 +216,36 @@ Composition is a restricted form of Aggregation in which two entities are highly
 * Type of Relationship: Has-a, part-of
 * Type of association: week, strong
 
+## Access and Non Access Modifiers in Java
+### Access Modifiers:
+* public
+* protected
+* package-private
+* private
+
+### Non-access modifiers
+* static: blocks, variables, methods, nested classes. static data stored in method area insted of head area of the memory
+* final
+* abstract
+* synchronized
+* transient: transient is a variables modifier used in serialization. At the time of serialization, if we don’t want to save value of a particular variable in a file, then we use transient keyword. When JVM comes across transient keyword, it ignores original value of the variable and save default value of that variable data type.
+
+* volatile
+* native
+
+## Nested Class in Java
+* static nested class
+* inner class: (a) local inner class (b) anonymous inner class
+
+## final keyword in java
+non-access modifier, applicable for variable, method or a class.
+* Final variable - constant
+* Final Method - Prevent method overriding
+* Final Class - Prevent Inheritance - Wrapper class, immutable class
+
+## volatile keyword in Java
+* does not use cache. directly store in main memory
+* it another way of synchronization but it only ensure visibility but not the atomicity or mutual exclusion.
+
 
 
