@@ -1,4 +1,17 @@
 # OOP JAVA
+
+## There are 7 qualities to be satisfied for a programming language to be pure OO
+* Encapsulation / Data Hiding
+* Inheritance
+* Polimorphism
+* Abstraction
+* All user defined types are objects
+* All predefined types are objects
+* All operations performed on objects must be only through methods exposed at the objects
+
+Java does not satisfy last two points
+Example: Smalltalk
+
 ## Prerequisite
 ### Static blocks and Instance Initializer Block 
 ### SOLID
@@ -247,5 +260,20 @@ non-access modifier, applicable for variable, method or a class.
 * does not use cache. directly store in main memory
 * it another way of synchronization but it only ensure visibility but not the atomicity or mutual exclusion.
 
+## Object class in Java
+* java.lang.Object
+* Supper class of all class
+### Object Class Methods
+**toString()**
+class name @ hexadecimal representation of hash code
+
+**hashCode()**
+JVM generates a unique number which is hash code. it returns distinct integers for distinct object. It does not returns internal address instead. It convert the internal address of object to an integer by using an algorithm.
+JVM uses hashcode method while saving objects into hashing related data structures like hashSet, HashMap, HashTable etc.
+
+Override hashCode() method should return unique value.
+
+**equals(Object obj)**
+Compares tow objects are equals.
 
 
