@@ -1,5 +1,9 @@
 # OOP JAVA
 
+## Checked vs Unchecked Exceptions in Java
+* Unchecked Exception: are not checked at compile time - Under Error and RuntimeException are unchecked. Ex: IOException
+* Checked Exception: checked at compile time. All exceptions under Throwable except Error and RuntimeExceptions. Ex: ArithmeticException
+
 ## Class
 * Modifiers
 * Class Name
@@ -98,6 +102,13 @@ Shape, Circle, Rectangle example. Shape is abstract class. Circle and Rectangle 
 ### Overriding in Java
 In any object-oriented programming language, Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.
 * Method of sub class override method of super class
+
+### Covariant return types in Java
+Before JDK 5.0, it was not possible to override method by changing the return type. Now it is possible to use different return type for a overriding method in child class. But return time must be sub type. int(parent) => short(child)
+* Specific return type
+* No type casting issue
+* Prevent run-time class cast exceptions
+
 ### Rules for method overriding
 * Overriding and Access-Modifiers - more access not less. like if parent method is protected then child method can not be made private. It can be made public.
 * Final methods can not be overridden
