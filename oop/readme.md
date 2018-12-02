@@ -220,7 +220,7 @@ Composition is a restricted form of Aggregation in which two entities are highly
 ### Access Modifiers:
 * public
 * protected
-* package-private
+* default - no keyword required
 * private
 
 ### Non-access modifiers
