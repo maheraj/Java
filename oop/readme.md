@@ -13,7 +13,10 @@ In object-oriented programming, the open/closed principle states "software entit
 Substitutability is a principle in object-oriented programming stating that, in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S
 
 * I - Interface segregation principle
-In the field of software engineering, the interface-segregation principle (ISP) states that no client should be forced to depend on methods it does not use.
+In the field of software engineering, the interface-segregation principle (ISP) states that no client should be forced to depend on methods it does not use. The principle states:
+(a) High-level modules should not depend on low-level modules. Both should depend on abstractions.
+(b) Abstractions should not depend on details. Details should depend on abstractions.
+
 
 * D - Dependency inversion principle
 In object-oriented design, the dependency inversion principle is a specific form of decoupling software modules. 
