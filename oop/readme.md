@@ -1,5 +1,23 @@
 # OOP JAVA
 ## Prerequisite
+
+### SOLID
+In object-oriented computer programming, SOLID is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable. It is not related to the GRASP software design principles. The principles are a subset of many principles promoted by Robert C. Martin.
+
+* S - Single responsibility principle
+The single responsibility principle is a computer programming principle that states that every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class. such an entity can allow its behaviour to be extended without modifying its source code. The name open/closed principle has been used in two ways. (a) Inheritance (b) abstracted interfaces
+
+* O - Open / Close principle
+In object-oriented programming, the open/closed principle states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"; 
+* L - Liskov substitution principle
+Substitutability is a principle in object-oriented programming stating that, in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S
+
+* I - Interface segregation principle
+In the field of software engineering, the interface-segregation principle (ISP) states that no client should be forced to depend on methods it does not use.
+
+* D - Dependency inversion principle
+In object-oriented design, the dependency inversion principle is a specific form of decoupling software modules. 
+
 ### Can we Overload or Override static methods in java ?
 We can overload static method but we can not override static method. If we declare same static method in subclass then parent one will be hidden. It is called method hidding.
 
