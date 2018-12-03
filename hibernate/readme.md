@@ -107,3 +107,5 @@ public class Vehicle {
 }
 
 ```
+### Polymorphic Queries
+All JPQL queries are polymorphic, which means the from clause of a query includes not only instances of the specific entity class to which it refers, but all subclasses of that class as well. The instances returned by a query include instances of the subclasses that satisfy the query conditions.
