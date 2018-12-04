@@ -10,4 +10,6 @@ An object that maps keys to values. A map cannot contain duplicate keys; each ke
 public interface Map<K,V>
 ```
 
+![Map Hirarchy in Java](map_hierarchy_in_java.png)
+
 ## Map vs Dictionary
