@@ -278,4 +278,4 @@ public class Anagrams {
 ```
 
 ## Referrences
-* ![Oracle docs](https://docs.oracle.com/javase/tutorial/collections/interfaces/map.html)
+* [Oracle docs](https://docs.oracle.com/javase/tutorial/collections/interfaces/map.html)
